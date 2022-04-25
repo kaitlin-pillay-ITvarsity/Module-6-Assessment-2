@@ -7,7 +7,7 @@ body{
 	font-size:16px;
 	font-weight: 400;
 	color:#363636;
- 
+ 	
 }
 p{
 	line-height:190%;
@@ -64,7 +64,7 @@ a:hover{
 }
 /*====================PAGE=================================================================*/
 #box{
-	background-image:url(images/home-1.jpg);
+background-image:url(images/home-1.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 }
@@ -156,29 +156,9 @@ a:hover{
 }
 
 /*============ABOUT US=======================*/
-#text-block-2 {
-  	position:absolute;
-	left:15%;
-	right:15%;
-	top:55%;
-	background-color: rgba(0,0,0, 0.6);
-	color: #DCDCDC;
-	padding-left: 20px;
-	padding-right: 20px;
-	padding-top: 50px;
-	padding-bottom:50px;
+#text-block-2{
+	text-align: center;
 }
-
-#text-block-2 ul{
-	margin:0;
-	padding:0;
-	list-style-type:none;
-}
-#text-block-2 li{
-	border-bottom: Solid 1px #B0B0B0;
-	padding: 20px;
-}
-
 /*==================GALLERY===========================*/
 #gallery img{
 	width:150px;
